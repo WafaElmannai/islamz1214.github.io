@@ -1,26 +1,21 @@
 html, body {
-        margin: 0;
-        padding: 0;
-
-
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-        max-width: 940px;
-        margin: 0 auto;
-        text-align: center;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .header {
-        padding: 20px;
-        background-color:  #33cc33;
-        
+  padding: 20px;
+  background-color:  #33cc33;
 }
 
 .myPhoto {
-        
-   border:5px solid black;
-   
+ border:5px solid black;
 }
 
 .main {
@@ -36,21 +31,19 @@ html, body {
 }
 
 .footer {
-        padding: 40px;
-        background-color: #33cc33;
-    text-align: center;
-        
+  padding: 40px;
+  background-color: #33cc33;
+  text-align: center;
 }
 
 .footer ul {
-        padding: 0;
-
+  padding: 0;
 }
 
 .footer li {
-        display: inline-block;
+  display: inline-block;
 }
 
 span {
-        color:black;
+  color:black;
 }
