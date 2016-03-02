@@ -1,0 +1,56 @@
+html, body {
+        margin: 0;
+        padding: 0;
+
+
+}
+
+.container {
+        max-width: 940px;
+        margin: 0 auto;
+        text-align: center;
+}
+
+.header {
+        padding: 20px;
+        background-color:  #33cc33;
+        
+}
+
+.myPhoto {
+        
+   border:5px solid black;
+   
+}
+
+.main {
+ font-family: 'Arvo', serif;
+}
+
+
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+  clear: both;
+}
+
+.footer {
+        padding: 40px;
+        background-color: #33cc33;
+    text-align: center;
+        
+}
+
+.footer ul {
+        padding: 0;
+
+}
+
+.footer li {
+        display: inline-block;
+}
+
+span {
+        color:black;
+}
