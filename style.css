@@ -1,49 +1,56 @@
+/* CSS STYLE */
+
 html, body {
   margin: 0;
   padding: 0;
+
 }
 
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  text-align: center;
-}
+/*--- Main ---*/
 
-.header {
-  padding: 20px;
-  background-color:  #33cc33;
-}
-
-.myPhoto {
- border:5px solid black;
+.main, .content {
+  font-family: 'Arvo', serif;
 }
 
 .main {
- font-family: 'Arvo', serif;
+  background-color: #8DC7C7;
+  padding: 10px;
 }
 
-
-.section .row {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #dbdbdb;
-  clear: both;
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.footer {
-  padding: 40px;
-  background-color: #33cc33;
-  text-align: center;
+.img-circle {
+ border: 5px solid black;
 }
 
-.footer ul {
-  padding: 0;
-}
-
-.footer li {
+.social-media li {
   display: inline-block;
 }
 
 span {
-  color:black;
+  color: black;
 }
+
+/*--- Content ---*/
+
+.content {
+  background-color: #8DC7C7;
+  padding-bottom: 40px;
+}
+
+.content h3 {
+  text-decoration: underline;
+}
+
+/*--- Media Queries ---*/
+
+@media (max-width: 991px) {
+  .main {
+    text-align: center;
+  }
+}
+  

@@ -1,112 +1,121 @@
 <html>
 <head>
-    <!--CUSTOM CSS -->
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <!-- FONT ICON CSS -->
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
-    <!-- GOOGLE FONT CSS -->
-    <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+  <!--CUSTOM CSS -->
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <!-- FONT ICON CSS -->
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+  <!-- GOOGLE FONT CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-    <!--Header -->
-    <div class="header">
-        <div class="container">
-           <img src="me.jpg" class="myPhoto">
-       </div>
-   </div>
+ <!-- Main -->
+ <div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="me.jpg" class="img-circle"/>
+      </div>
+      <div class="col-md-9">
+        <h1>Aspiring Software Developer.</h1>
+        <hr>
+        <div class="row">
+          <div class="col-md-5">
+            <p><b>E-mail:</b> islamz1214@gmail.com</p>
+            <p><b>Cell:</b> (203)-296-0068</p>
+          </div>
+          <div class="col-md-7">
+            <ul class="social-media">    
+              <li>
+                <a href="https://www.linkedin.com/in/zahidul-islam-04969362" 
+                class="btn btn-block btn-social btn-linkedin">
+                <span class="fa fa-linkedin fa-2x"></span></a>
+              </li>
+              <li>
+                <a href="https://github.com/islamz1214" 
+                class="btn btn-block btn-social btn-github">
+                <span class="fa fa-github fa-2x"></span></a>
+              </li>
+              <li>
+                <a href="mailto:islamz1214@gmail.com" 
+                class="btn btn-block btn-social btn-envelope">
+                <span class="fa fa-envelope fa-2x"></span></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/islamz1214"
+                class="btn btn-block btn-social btn-twitter">
+                <span class="fa fa-twitter fa-2x"></span></a>
+              </li>
+              <li>
+                <a href="https://plus.google.com/114059757713725373909" 
+                class="btn btn-block btn-social btn-google-plus">
+                <span class="fa fa-google-plus fa-2x"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-   <!-- Main -->
-   <div class="main">
-    <div class="container">
-        <h1>Hi, I am Zahidul Islam.</h1>
-        <h3>I am currently pursuing my undergrad in Computer Science at Southern Connecticut State University. 
-            I expect to graduate in May 2016.</h3>
+
+<div class="content">
+  <div class="container">
+    <h2>Hi, I am Zahidul Islam.</h1>
+      <p>I am currently pursuing my undergrad in Computer Science at Southern Connecticut State University. 
+         I expect to graduate in May 2016. Also, I am currently an apprentice for the a100 program. 
+         I love to code and enjoy learning new technologies. </p>
+
+    <div class="row">
+       <div class="col-md-6">
+        <h3>Education</h3>
+          <h4>Southern Connecticut State University</h4>
+            <ul>
+              <li>Major - Computer Science</li>
+              <li>August 2012 - May 2016</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Technical Skills</h3>
+            <ul>
+              <li>Languages: Java, HTML, CSS, JavaScript, PHP, Swift</li>
+              <li>Tools: Sublime, DrJava, Eclipse, Xcode, MS Office</li>
+              <li>Operating Systems: Mac OS, iOS, Windows, Linux</li>  
+            </ul>
         </div>
     </div>
+  
+    <h3>Projects</h3>
+      <h4>Studify</h4>
+        <p>CSC 400 Project Seminar.
+           An iOS mobile application that assist students with their academic duties and responsibilities.
+           The software was built using Xcode application, Parse database, and Swift language.
+           Solo project, I had to learn everything from scratch and I got most of my features functioning.</p>
 
-    <!-- Projects -->
-    <div class="projects">
-        <div class="container">
+      <h4>Blackjack</h4>
+        <p>CSC 153 Project.
+           The game was devloped purely in Java. I used an arraylist to keep track of the .png card image files. It is a one player game.
+           I also included additional side bets such as double down, insurance, and surrender.
+           The objective is to score higher than the dealer and win the bet.</p>
 
-            <!-- Projet 1 -->
-            <div class="section">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>Studify</h1>
-                    </div>
-                    <div class="col-md-6">
-                        <p>CSC 400 Project Seminar.
-                         An iOS mobile application that assist students with their academic duties and responsibilities. The software was built using Xcode application, Parse database, and Swift language.
-                         Solo project, I had to learn everything from scratch and I got most of my features functioning.</p>
-                     </div>
-                 </div>
-             </div>
+      <h4>Yahtzee</h4>
+        <p>CSC 443 Internet Programming project.
+           My first game in JavaScript. It follows the traditional Yahtzee rules. It is a one player game. 
+           The objective of the game is to maxamize total score while scoring in all categories.</p>
 
-             <!-- Project 2 -->
-             <div class="section">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>Blackjack</h1>
-                    </div>
-                    <div class="col-md-6">
-                        <p>CSC 153 Project.
-                         The game was devloped purely in Java. I used an arraylist to keep track of the .png card image files. It is a one player game. Also I included the addiotnal side bets.</p>
-                     </div>    
-                 </div>
-             </div>
-
-             <!-- Project 3 -->
-             <div class="section">
-                <div class="row">
-                    <div class="col-md-6">
-                      <h1>Yahtzee</h1>
-                  </div>
-                  <div class="col-md-6">
-                    <p>CSC 443 Internet Programming project.
-                        The game was built in JavaScript. It follows the traditional Yahtzee rules.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <ul>    
-                    <li>
-                        <a href="https://www.linkedin.com/in/zahidul-islam-04969362" 
-                        class="btn btn-block btn-social btn-linkedin">
-                        <span class="fa fa-linkedin fa-2x"></span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/islamz1214" 
-                        class="btn btn-block btn-social btn-github">
-                        <span class="fa fa-github fa-2x"></span></a>
-                    </li>
-                    <li>
-                        <a href="mailto:islamz1214@gmail.com" 
-                        class="btn btn-block btn-social btn-envelope">
-                        <span class="fa fa-envelope fa-2x"></span></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/islamz1214"
-                        class="btn btn-block btn-social btn-twitter">
-                        <span class="fa fa-twitter fa-2x"></span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/114059757713725373909" 
-                        class="btn btn-block btn-social btn-google-plus">
-                        <span class="fa fa-google-plus fa-2x"></span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</body>
+      <h3>Experience</h3>
+        <h4>Sales Associate - Brand Cigars</h4>
+          <h5>2010 - Present</h5>
+            <ul>
+              <li>Provide exceptional customer service.</li>
+              <li>Order large volume of merchandise and stock inventory</li>
+              <li>Responsible of maintaining store independently</li>
+            </ul>
+    
+  </div>
+</div>
+</body> 
 </html>
