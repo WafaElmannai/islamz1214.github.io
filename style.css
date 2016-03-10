@@ -6,16 +6,43 @@ html, body {
 
 }
 
-/*--- Main ---*/
+p {
+  font-size: 16px;
+}
 
-.main, .content {
+/*--- All ---*/
+
+.main, .content, .projects, .experience, .section {
+  background-color: #2C3E50;;
+  color: lightblue;
   font-family: 'Arvo', serif;
 }
 
-.main {
-  background-color: #8DC7C7;
-  padding: 10px;
+/*--- Section ---*/
+
+.section {
+ 
+  color: gold;
+  
+
 }
+
+/*--- Main ---*/
+
+
+
+.main {
+  
+  padding: 10px;
+  
+  color: lightblue;
+  
+}
+
+.main h1 {
+  color: gold;
+}
+
 
 .main img {
     display: block;
@@ -23,8 +50,8 @@ html, body {
     margin-right: auto;
 }
 
-.img-circle {
- border: 5px solid black;
+.img-circle  {
+  border: 5px ridge black;
 }
 
 .social-media li {
@@ -36,19 +63,51 @@ html, body {
 }
 
 span {
-  color: black;
+  color: white;
 }
 
 /*--- Content ---*/
 
 .content {
-  background-color: #8DC7C7;
+  color: lightblue;
+}
+
+.content h2 {
+  color: gold;
+
+}
+
+.content h3{
+
+  color: gold;
+}
+
+/*--- Projects ---*/
+
+.projects .row {
+  padding-bottom: 10px;
+}
+
+.projects .col-md-9:nth-child(2) {
+  padding-left: 40px;
+}
+
+.projects img:nth-child(2) {
+  padding-right: 20px;
+}
+
+.projects img {
+  border-radius: 10px;
+  border: 5px solid black;
+}
+
+/*--- Experience ---*/
+
+.experience {
+  
   padding-bottom: 40px;
 }
 
-.content h3 {
-  text-decoration: underline;
-}
 
 /*--- Media Queries ---*/
 
