@@ -10,13 +10,15 @@ p {
   font-size: 20px;
 }
 
-
-/*--- All ---*/
-
 .main, .content, .projects, .experience, .section{
   background-color: #2C3E50;
   color: lightblue;
   font-family: 'Arvo', serif;
+}
+
+.col-md-9 img {
+  height: 150px;
+  width: 100px;
 }
 
 /*--- Section ---*/
@@ -54,19 +56,14 @@ p {
 
 .main .img-circle  {
   border: 5px solid black;
-  border-radius: 50%;
-
- 
+  border-radius: 50%; 
 }
-
-
 
 .social-media li {
   display: inline-block;
   background-color: blue;
   border: 5px solid black;
   border-radius: 10px;
-
 }
 
 .social-media {
@@ -86,8 +83,6 @@ span {
   color: white;
   text-decoration: none;
 }
-
-
 
 /*--- Content ---*/
 
@@ -121,17 +116,35 @@ span {
   padding-bottom: 10px;
 }
 
-.projects .col-md-9:nth-child(2) {
-  padding-left: 40px;
-}
-
-.projects img:nth-child(2) {
-  padding-right: 20px;
-}
-
 .projects img {
   border-radius: 10px;
   border: 5px solid black;
+}
+
+.projects .row .col-md-3 {
+  text-align: center;
+}
+
+.projects button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  border: 5px solid black;
+  background-color: blue;
+}
+
+.projects button:hover, .social-media li:hover {
+  background-color: gold;
+  color: black;
+
+}
+
+.projects img:hover {
+  height: 70%;
+  width: 35%;
+  -webkit-transition: width height 2s;
 }
 
 /*--- Experience ---*/
@@ -158,12 +171,11 @@ span {
     text-align: center;
   }
 
-  .projects .col-md-9:nth-child(2) {
-padding-left: 20px;
-}
+  .projects button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 
-.projects img:nth-child(2) {
- padding: 0px;
-}
+
 }
   
