@@ -1,3 +1,18 @@
+#pj_1_img.col-md-9 {
+  display: none;
+  
+}
+#pj_2_img.col-md-9 {
+  display: none;
+  
+}
+#pj_3_img.col-md-9 {
+  display: none;
+  
+}
+
+
+
 /* CSS STYLE */
 
 html, body {
@@ -59,6 +74,10 @@ p {
   border-radius: 50%; 
 }
 
+.main .col-md-5 a {
+  color: lightblue;
+}
+
 .social-media li {
   display: inline-block;
   background-color: blue;
@@ -105,15 +124,12 @@ span {
 
 /*--- Projects ---*/
 
-
-.projects h4 {
-  text-decoration: underline;
-  color: white;
-  font-size: 24px;
-}
-
 .projects .row {
   padding-bottom: 10px;
+}
+
+.projects .container {
+  padding-top: 40px;
 }
 
 .projects img {
@@ -150,7 +166,6 @@ span {
 /*--- Experience ---*/
 
 .experience {
-  
   padding-bottom: 40px;
 }
 

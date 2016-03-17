@@ -118,47 +118,65 @@
  <!-- PROJECTS -->
   <div class="projects">
     <div class="container">
+      
+    <!--| Studify |-->
       <div class="row">
         <div class="col-md-3">
-          <button onClick="preview_Studify(this)">Studify</button>
-
+          <button id="pj_1" onClick="preview(id)">Studify</button>
         </div>
-        <div id="pj_1_text" id="onlyMe" class="col-md-9">
-          <p>CSC 400 Project Seminar.
+        <div id="pj_1_text" class="col-md-9">
+          <p>
+           CSC 400 Project Seminar.
            An iOS mobile application that assist students with their academic duties and responsibilities.
            The software was built using Xcode application, Parse database, and Swift language.
-           Solo project, I had to learn everything from scratch and I got most of my features functioning.</p>
+           Solo project, I had to learn everything from scratch and I got most of my features functioning.
+          </p>
         </div>
+        <div id="pj_1_img" class="col-md-9">
+          <img src="images/studify/studify_login.png"> <img src="images/studify/studify_dashboard.png">
+          <img src="images/studify/studify_edit_course.png"><img src="images/studify/studify_dashboard.png">   
+        </div>
+      </div>
+    
+
+    <!--| Blackjack |-->
+    <div class="row">
+      <div class="col-md-3">
+        <button id="pj_2" onClick="preview(id)">Blackjack</button>
+      </div>
+      <div id="pj_2_text" class="col-md-9">
+        <p>
+          CSC 153 Project.
+          The game was devloped purely in Java. I used an arraylist to keep track of the .png card image files. It is a one player game.
+          I also included additional side bets such as double down, insurance, and surrender.
+          The objective is to score higher than the dealer and win the bet.
+        </p>
+      </div>
+       <div id="pj_2_img" class="col-md-9">
+         <img src="images/blackjack/blackjack_newgame.png"> <img src="images/blackjack/blackjack_deal.png">
+         <img src="images/blackjack/blackjack_you_win.png"><img src="images/blackjack/blackjack_you_lose.png">
        </div>
+    </div>
 
-       <div class="row">
+    <!--| Yahtzee |-->
+      <div class="row">
         <div class="col-md-3">
-
-          <button onClick="preview_Blackjack()">Blackjack</button>
-        </div>
-         <div id="pj_2_text" class="col-md-9">
-        <p>CSC 153 Project.
-           The game was devloped purely in Java. I used an arraylist to keep track of the .png card image files. It is a one player game.
-           I also included additional side bets such as double down, insurance, and surrender.
-           The objective is to score higher than the dealer and win the bet.</p>
-        </div>
-        
-        </div>
-
-        <div class="row">
-
-        <div class="col-md-3">
-         <button onClick="preview_Yahtzee()">Yahtzee</button>
-
+          <button id="pj_3" onClick="preview(id)">Yahtzee</button>
         </div>
         <div id="pj_3_text" class="col-md-9">
-  
-        <p>CSC 443 Internet Programming project.
+          <p>
+           CSC 443 Internet Programming project.
            My first game in JavaScript. It follows the traditional Yahtzee rules. It is a one player game. 
-           The objective of the game is to maxamize total score while scoring in all categories.</p>
+           The objective of the game is to maxamize total score while scoring in all categories.
+          </p>
         </div>
+        <div id="pj_3_img" class="col-md-9">
+          <img src="images/yahtzee/yahtzee_newgame.png"> <img src="images/yahtzee/yahtzee_small_straight.png">
+          <img src="images/yahtzee/yahtzee_fullhouse.png"><img src="images/yahtzee/yahtzee_final_score.png">
         </div>
-</div>
+      </div>
+
+  </div>
 </div>
 
 
@@ -196,34 +214,28 @@
 
     
 </div>
-<<<<<<< HEAD
+
 
  <script>
 
-var toggle = false;
+function preview(project) {
+
  
-function preview_Studify() {
 
- if(toggle === false)
- {
-     document.getElementById("pj_1_text").innerHTML = '<img src="images/studify/studify_login.png"> <img src="images/studify/studify_dashboard.png"><img src="images/studify/studify_edit_course.png"><img src="images/studify/studify_dashboard.png">';
-    toggle = true;
-  }
-  else
-  {
+var text = document.getElementById(project + "_text");
+var img = document.getElementById(project + "_img");
 
-     document.getElementById("pj_1_text").innerHTML = '<p>CSC 400 Project Seminar. An iOS mobile application that assist students with their academic duties and responsibilities. The software was built using Xcode application, Parse database, and Swift language. Solo project, I had to learn everything from scratch and I got most of my features functioning.</p>';
-     toggle = false;
-  }
-    
+if(text.style.display !== 'none')
+{
+  text.style.display = 'none';
+  img.style.display = 'inline-block';
+}
+else
+{
+  text.style.display = 'inline-block';
+  img.style.display = 'none';
 }
 
-function preview_Blackjack() {
-    document.getElementById("pj_2_text").innerHTML = '<img src="images/blackjack/blackjack_newgame.png"> <img src="images/blackjack/blackjack_deal.png"><img src="images/blackjack/blackjack_you_win.png"><img src="images/blackjack/blackjack_you_lose.png">';                                                   
-}
-
-function preview_Yahtzee() {
-    document.getElementById("pj_3_text").innerHTML = '<img src="images/yahtzee/yahtzee_newgame.png"> <img src="images/yahtzee/yahtzee_small_straight.png"><img src="images/yahtzee/yahtzee_fullhouse.png"><img src="images/yahtzee/yahtzee_final_score.png">';                                            
 }
 
 </script>
