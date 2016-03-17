@@ -1,8 +1,8 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
   <!--CUSTOM CSS -->
-  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css"/>
   <!-- FONT ICON CSS -->
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <!-- BOOTSTRAP CSS -->
@@ -12,7 +12,10 @@
   <!-- MOBILE VIEW -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- JAVASCRIPT -->
- 
+
+  <script src="function.js"></script>
+  <title>Zahidul Islam's Personal Website</title>
+  <meta charset="UTF-8">
 </head>
 <body>
  <!-- MAIN -->
@@ -21,7 +24,7 @@
     <div class="row">
       <div class="col-md-3">
        
-        <img src="me.jpg" class="img-circle"/>
+        <img src="images/me.jpg" class="img-circle" alt="A picture of me."/>
      
       </div>
       <div class="col-md-9">
@@ -29,8 +32,8 @@
         <hr>
         <div class="row">
           <div class="col-md-5">
-            <p id="contact"><span>E-mail:</span> islamz1214@gmail.com</p>
-            <p id="contact"><span>Cell:</span> (203)-296-0068</p>
+            <p class="contact"><span>E-mail:</span><a href="mailto:islamz1214@gmail.com"> islamz1214@gmail.com</a></p>
+            <p class="contact"><span>Cell:</span> (203)-296-0068</p>
           </div>
           <div class="col-md-7">
             <ul class="social-media">    
@@ -118,6 +121,7 @@
       <div class="row">
         <div class="col-md-3">
           <button onClick="preview_Studify(this)">Studify</button>
+
         </div>
         <div id="pj_1_text" id="onlyMe" class="col-md-9">
           <p>CSC 400 Project Seminar.
@@ -129,10 +133,10 @@
 
        <div class="row">
         <div class="col-md-3">
+
           <button onClick="preview_Blackjack()">Blackjack</button>
         </div>
          <div id="pj_2_text" class="col-md-9">
-        
         <p>CSC 153 Project.
            The game was devloped purely in Java. I used an arraylist to keep track of the .png card image files. It is a one player game.
            I also included additional side bets such as double down, insurance, and surrender.
@@ -142,8 +146,10 @@
         </div>
 
         <div class="row">
+
         <div class="col-md-3">
          <button onClick="preview_Yahtzee()">Yahtzee</button>
+
         </div>
         <div id="pj_3_text" class="col-md-9">
   
@@ -190,6 +196,7 @@
 
     
 </div>
+<<<<<<< HEAD
 
  <script>
 
@@ -220,7 +227,6 @@ function preview_Yahtzee() {
 }
 
 </script>
-
 
 </body> 
 </html>
