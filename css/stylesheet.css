@@ -152,7 +152,7 @@ span {
 }
 
 .projects button:hover, .social-media li:hover {
-  background-color: gold;
+  background-color: grey;
   color: white;
 
 }
