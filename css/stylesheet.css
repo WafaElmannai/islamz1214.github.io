@@ -70,7 +70,7 @@ p {
 }
 
 .main .img-circle  {
-  border: 5px solid black;
+  border: 5px solid white;
   border-radius: 50%; 
 }
 
@@ -81,7 +81,7 @@ p {
 .social-media li {
   display: inline-block;
   background-color: blue;
-  border: 5px solid black;
+  border: 5px solid white;
   border-radius: 10px;
 }
 
@@ -134,7 +134,7 @@ span {
 
 .projects img {
   border-radius: 10px;
-  border: 5px solid black;
+  border: 5px solid width;
 }
 
 .projects .row .col-md-3 {
@@ -147,13 +147,13 @@ span {
   font-size: 20px;
   border-radius: 10px;
   color: white;
-  border: 5px solid black;
+  border: 5px solid white;
   background-color: blue;
 }
 
 .projects button:hover, .social-media li:hover {
   background-color: gold;
-  color: black;
+  color: white;
 
 }
 
